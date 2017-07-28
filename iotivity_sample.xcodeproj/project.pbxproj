@@ -7,21 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7208CA681F0180CD00226321 /* SmartDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7208CA661F0180CD00226321 /* SmartDeviceTableViewCell.m */; };
-		7208CA691F0180CD00226321 /* SmartDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7208CA671F0180CD00226321 /* SmartDeviceTableViewCell.xib */; };
 		7208CA791F01B33800226321 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7208CA771F01B33800226321 /* HomeTableViewCell.m */; };
 		7208CA7A1F01B33800226321 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7208CA781F01B33800226321 /* HomeTableViewCell.xib */; };
-		7208CA7E1F01D07300226321 /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7208CA7C1F01D07300226321 /* CompassViewController.m */; };
-		7208CA7F1F01D07300226321 /* CompassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7208CA7D1F01D07300226321 /* CompassViewController.xib */; };
-		7208CA831F01E05E00226321 /* CompassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7208CA811F01E05E00226321 /* CompassTableViewCell.m */; };
-		7208CA841F01E05E00226321 /* CompassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7208CA821F01E05E00226321 /* CompassTableViewCell.xib */; };
 		7226082D1EFC33E800C057B4 /* ResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7226082B1EFC33E800C057B4 /* ResourceCell.m */; };
 		7226082E1EFC33E800C057B4 /* ResourceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7226082C1EFC33E800C057B4 /* ResourceCell.xib */; };
 		72366EDF1ED79E7E00BD1D28 /* DeviceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72366EDE1ED79E7E00BD1D28 /* DeviceListViewController.xib */; };
 		723CB0DF1F1562F300585A70 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 723CB0DE1F1562F300585A70 /* ios */; };
 		723CB0E01F15630200585A70 /* iotivity-csdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9E38FB1ED0BFDD00EFA8A4 /* iotivity-csdk.framework */; };
-		723E92EE1F101B7800C5C1DB /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72562F111F06E57100ADC5D4 /* Charts.framework */; };
-		723E92EF1F101B7800C5C1DB /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72562F111F06E57100ADC5D4 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7250ED951F26C18F00DB9294 /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7250ED931F26C18F00DB9294 /* LightViewController.m */; };
 		7250ED961F26C18F00DB9294 /* LightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7250ED941F26C18F00DB9294 /* LightViewController.xib */; };
 		727104F91F1D466600A43DBF /* lightimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 727104F71F1D466600A43DBF /* lightimg.png */; };
@@ -39,6 +31,14 @@
 		72C281891EFC3A1F00127D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C281881EFC3A1F00127D9A /* Main.storyboard */; };
 		72CE41101EFB26E600640431 /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CE40FF1EFB26E600640431 /* DeviceViewController.xib */; };
 		72CE411B1EFB277F00640431 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CE411A1EFB277F00640431 /* DeviceViewController.m */; };
+		72DDB7FE1F2BA2410092024C /* CompassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DDB7F91F2BA2410092024C /* CompassTableViewCell.m */; };
+		72DDB7FF1F2BA2410092024C /* CompassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DDB7FA1F2BA2410092024C /* CompassTableViewCell.xib */; };
+		72DDB8001F2BA2410092024C /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DDB7FC1F2BA2410092024C /* CompassViewController.m */; };
+		72DDB8011F2BA2410092024C /* CompassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DDB7FD1F2BA2410092024C /* CompassViewController.xib */; };
+		72DDB8051F2BA25E0092024C /* SmartDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DDB8031F2BA25E0092024C /* SmartDeviceTableViewCell.m */; };
+		72DDB8061F2BA25E0092024C /* SmartDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DDB8041F2BA25E0092024C /* SmartDeviceTableViewCell.xib */; };
+		72DDB8111F2BA2C90092024C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DDB80E1F2BA28E0092024C /* Charts.framework */; };
+		72DDB8121F2BA2C90092024C /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72DDB80E1F2BA28E0092024C /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AD2297BB1ECA2A8200467CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2297BA1ECA2A8200467CF0 /* main.m */; };
 		AD2297BE1ECA2A8200467CF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2297BD1ECA2A8200467CF0 /* AppDelegate.m */; };
 		AD2297C61ECA2A8200467CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2297C51ECA2A8200467CF0 /* Assets.xcassets */; };
@@ -54,26 +54,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		723E92F01F101B7800C5C1DB /* PBXContainerItemProxy */ = {
+		72DDB80D1F2BA28E0092024C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 72562F0B1F06E57100ADC5D4 /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 06165F231D8110E600722320;
-			remoteInfo = Charts;
-		};
-		72562F101F06E57100ADC5D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72562F0B1F06E57100ADC5D4 /* Charts.xcodeproj */;
+			containerPortal = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F241D8110E600722320;
 			remoteInfo = Charts;
 		};
-		72562F121F06E57100ADC5D4 /* PBXContainerItemProxy */ = {
+		72DDB80F1F2BA28E0092024C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 72562F0B1F06E57100ADC5D4 /* Charts.xcodeproj */;
+			containerPortal = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F2E1D8110E600722320;
 			remoteInfo = ChartsTests;
+		};
+		72DDB8131F2BA2C90092024C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
 		};
 		AD2297D01ECA2A8200467CF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -98,7 +98,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				723E92EF1F101B7800C5C1DB /* Charts.framework in Embed Frameworks */,
+				72DDB8121F2BA2C90092024C /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,18 +106,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7208CA651F0180CD00226321 /* SmartDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartDeviceTableViewCell.h; sourceTree = "<group>"; };
-		7208CA661F0180CD00226321 /* SmartDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartDeviceTableViewCell.m; sourceTree = "<group>"; };
-		7208CA671F0180CD00226321 /* SmartDeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmartDeviceTableViewCell.xib; sourceTree = "<group>"; };
 		7208CA761F01B33800226321 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		7208CA771F01B33800226321 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		7208CA781F01B33800226321 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
-		7208CA7B1F01D07300226321 /* CompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompassViewController.h; path = ../CompassViewController.h; sourceTree = "<group>"; };
-		7208CA7C1F01D07300226321 /* CompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompassViewController.m; path = ../CompassViewController.m; sourceTree = "<group>"; };
-		7208CA7D1F01D07300226321 /* CompassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CompassViewController.xib; path = ../CompassViewController.xib; sourceTree = "<group>"; };
-		7208CA801F01E05E00226321 /* CompassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompassTableViewCell.h; path = ../CompassTableViewCell.h; sourceTree = "<group>"; };
-		7208CA811F01E05E00226321 /* CompassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompassTableViewCell.m; path = ../CompassTableViewCell.m; sourceTree = "<group>"; };
-		7208CA821F01E05E00226321 /* CompassTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CompassTableViewCell.xib; path = ../CompassTableViewCell.xib; sourceTree = "<group>"; };
 		7226082A1EFC33E800C057B4 /* ResourceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceCell.h; sourceTree = "<group>"; };
 		7226082B1EFC33E800C057B4 /* ResourceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceCell.m; sourceTree = "<group>"; };
 		7226082C1EFC33E800C057B4 /* ResourceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceCell.xib; sourceTree = "<group>"; };
@@ -127,8 +118,6 @@
 		7250ED931F26C18F00DB9294 /* LightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
 		7250ED941F26C18F00DB9294 /* LightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LightViewController.xib; sourceTree = "<group>"; };
 		72562F011F06DC6900ADC5D4 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../Library/Developer/Xcode/DerivedData/iotivity_sample-bydqnbpyuvszzjerzvyzfkbjkdgy/Build/Products/Debug-iphoneos/Charts/Charts.framework"; sourceTree = "<group>"; };
-		72562F061F06E23900ADC5D4 /* iotivity_sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iotivity_sample-Bridging-Header.h"; sourceTree = "<group>"; };
-		72562F0B1F06E57100ADC5D4 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		727104F71F1D466600A43DBF /* lightimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightimg.png; sourceTree = "<group>"; };
 		727104F81F1D466600A43DBF /* sensorimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensorimg.png; sourceTree = "<group>"; };
 		727104FC1F1D69AE00A43DBF /* SensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorViewController.h; sourceTree = "<group>"; };
@@ -151,6 +140,17 @@
 		72CE40FA1EFB26E600640431 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
 		72CE40FF1EFB26E600640431 /* DeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceViewController.xib; sourceTree = "<group>"; };
 		72CE411A1EFB277F00640431 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		72DDB7F81F2BA2410092024C /* CompassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassTableViewCell.h; sourceTree = "<group>"; };
+		72DDB7F91F2BA2410092024C /* CompassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassTableViewCell.m; sourceTree = "<group>"; };
+		72DDB7FA1F2BA2410092024C /* CompassTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompassTableViewCell.xib; sourceTree = "<group>"; };
+		72DDB7FB1F2BA2410092024C /* CompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassViewController.h; sourceTree = "<group>"; };
+		72DDB7FC1F2BA2410092024C /* CompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
+		72DDB7FD1F2BA2410092024C /* CompassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompassViewController.xib; sourceTree = "<group>"; };
+		72DDB8021F2BA25E0092024C /* SmartDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartDeviceTableViewCell.h; path = iotivity_sample/SmartDeviceTableViewCell.h; sourceTree = "<group>"; };
+		72DDB8031F2BA25E0092024C /* SmartDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmartDeviceTableViewCell.m; path = iotivity_sample/SmartDeviceTableViewCell.m; sourceTree = "<group>"; };
+		72DDB8041F2BA25E0092024C /* SmartDeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmartDeviceTableViewCell.xib; path = iotivity_sample/SmartDeviceTableViewCell.xib; sourceTree = "<group>"; };
+		72DDB8071F2BA2710092024C /* iotivity_sample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "iotivity_sample-Bridging-Header.h"; path = "iotivity_sample/iotivity_sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		72DDB8081F2BA28D0092024C /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
 		AD2297B61ECA2A8200467CF0 /* iotivity_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iotivity_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2297BA1ECA2A8200467CF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD2297BC1ECA2A8200467CF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DDB8111F2BA2C90092024C /* Charts.framework in Frameworks */,
 				723CB0E01F15630200585A70 /* iotivity-csdk.framework in Frameworks */,
-				723E92EE1F101B7800C5C1DB /* Charts.framework in Frameworks */,
 				AD2298131ECA554F00467CF0 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,12 +208,12 @@
 		7208CA751F01B31500226321 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7208CA7B1F01D07300226321 /* CompassViewController.h */,
-				7208CA7C1F01D07300226321 /* CompassViewController.m */,
-				7208CA7D1F01D07300226321 /* CompassViewController.xib */,
-				7208CA801F01E05E00226321 /* CompassTableViewCell.h */,
-				7208CA811F01E05E00226321 /* CompassTableViewCell.m */,
-				7208CA821F01E05E00226321 /* CompassTableViewCell.xib */,
+				72DDB7F81F2BA2410092024C /* CompassTableViewCell.h */,
+				72DDB7F91F2BA2410092024C /* CompassTableViewCell.m */,
+				72DDB7FA1F2BA2410092024C /* CompassTableViewCell.xib */,
+				72DDB7FB1F2BA2410092024C /* CompassViewController.h */,
+				72DDB7FC1F2BA2410092024C /* CompassViewController.m */,
+				72DDB7FD1F2BA2410092024C /* CompassViewController.xib */,
 				727104FC1F1D69AE00A43DBF /* SensorViewController.h */,
 				727104FD1F1D69AE00A43DBF /* SensorViewController.m */,
 				727104FE1F1D69AE00A43DBF /* SensorViewController.xib */,
@@ -234,25 +234,6 @@
 				7250ED941F26C18F00DB9294 /* LightViewController.xib */,
 			);
 			name = HomeViewController;
-			sourceTree = "<group>";
-		};
-		72562F0C1F06E57100ADC5D4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				72562F111F06E57100ADC5D4 /* Charts.framework */,
-				72562F131F06E57100ADC5D4 /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		728E0B411F01739A0022F03F /* SmartDeviceViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7208CA651F0180CD00226321 /* SmartDeviceTableViewCell.h */,
-				7208CA661F0180CD00226321 /* SmartDeviceTableViewCell.m */,
-				7208CA671F0180CD00226321 /* SmartDeviceTableViewCell.xib */,
-			);
-			name = SmartDeviceViewController;
 			sourceTree = "<group>";
 		};
 		72C2817E1EFC37AF00127D9A /* Peripheral classes */ = {
@@ -317,13 +298,24 @@
 			path = iotivity_sample;
 			sourceTree = "<group>";
 		};
+		72DDB8091F2BA28D0092024C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DDB80E1F2BA28E0092024C /* Charts.framework */,
+				72DDB8101F2BA28E0092024C /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AD2297AD1ECA2A8200467CF0 = {
 			isa = PBXGroup;
 			children = (
+				72DDB8081F2BA28D0092024C /* Charts.xcodeproj */,
+				72DDB8071F2BA2710092024C /* iotivity_sample-Bridging-Header.h */,
+				72DDB8021F2BA25E0092024C /* SmartDeviceTableViewCell.h */,
+				72DDB8031F2BA25E0092024C /* SmartDeviceTableViewCell.m */,
+				72DDB8041F2BA25E0092024C /* SmartDeviceTableViewCell.xib */,
 				723CB0DE1F1562F300585A70 /* ios */,
-				72562F0B1F06E57100ADC5D4 /* Charts.xcodeproj */,
-				72562F061F06E23900ADC5D4 /* iotivity_sample-Bridging-Header.h */,
-				728E0B411F01739A0022F03F /* SmartDeviceViewController */,
 				AD2297B81ECA2A8200467CF0 /* iotivity_sample */,
 				72C2818D1EFC3C3500127D9A /* Constants */,
 				AD2297D21ECA2A8200467CF0 /* iotivity_sampleTests */,
@@ -417,7 +409,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				723E92F11F101B7800C5C1DB /* PBXTargetDependency */,
+				72DDB8141F2BA2C90092024C /* PBXTargetDependency */,
 			);
 			name = iotivity_sample;
 			productName = iotivity_sample;
@@ -499,8 +491,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 72562F0C1F06E57100ADC5D4 /* Products */;
-					ProjectRef = 72562F0B1F06E57100ADC5D4 /* Charts.xcodeproj */;
+					ProductGroup = 72DDB8091F2BA28D0092024C /* Products */;
+					ProjectRef = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -513,18 +505,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		72562F111F06E57100ADC5D4 /* Charts.framework */ = {
+		72DDB80E1F2BA28E0092024C /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = 72562F101F06E57100ADC5D4 /* PBXContainerItemProxy */;
+			remoteRef = 72DDB80D1F2BA28E0092024C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		72562F131F06E57100ADC5D4 /* ChartsTests.xctest */ = {
+		72DDB8101F2BA28E0092024C /* ChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChartsTests.xctest;
-			remoteRef = 72562F121F06E57100ADC5D4 /* PBXContainerItemProxy */;
+			remoteRef = 72DDB80F1F2BA28E0092024C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -537,23 +529,23 @@
 				723CB0DF1F1562F300585A70 /* ios in Resources */,
 				727105081F1D76A600A43DBF /* linechart.png in Resources */,
 				72366EDF1ED79E7E00BD1D28 /* DeviceListViewController.xib in Resources */,
+				72DDB8011F2BA2410092024C /* CompassViewController.xib in Resources */,
 				7226082E1EFC33E800C057B4 /* ResourceCell.xib in Resources */,
 				AD2297C91ECA2A8200467CF0 /* LaunchScreen.storyboard in Resources */,
-				7208CA7F1F01D07300226321 /* CompassViewController.xib in Resources */,
 				727105051F1D71E000A43DBF /* SensorTableViewCell.xib in Resources */,
 				72CE41101EFB26E600640431 /* DeviceViewController.xib in Resources */,
 				AD2297C61ECA2A8200467CF0 /* Assets.xcassets in Resources */,
 				7250ED961F26C18F00DB9294 /* LightViewController.xib in Resources */,
 				72C281891EFC3A1F00127D9A /* Main.storyboard in Resources */,
 				727104F91F1D466600A43DBF /* lightimg.png in Resources */,
-				7208CA841F01E05E00226321 /* CompassTableViewCell.xib in Resources */,
 				AD22980E1ECA4CA600467CF0 /* DeviceCell.xib in Resources */,
+				72DDB7FF1F2BA2410092024C /* CompassTableViewCell.xib in Resources */,
 				728E0B401F0173940022F03F /* SmartDeviceViewController.xib in Resources */,
 				727105001F1D69AE00A43DBF /* SensorViewController.xib in Resources */,
 				72C281871EFC393C00127D9A /* HomeViewController.xib in Resources */,
 				727104FA1F1D466600A43DBF /* sensorimg.png in Resources */,
-				7208CA691F0180CD00226321 /* SmartDeviceTableViewCell.xib in Resources */,
 				7208CA7A1F01B33800226321 /* HomeTableViewCell.xib in Resources */,
+				72DDB8061F2BA25E0092024C /* SmartDeviceTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,19 +575,19 @@
 				728E0B3F1F0173940022F03F /* SmartDeviceViewController.m in Sources */,
 				AD2297BE1ECA2A8200467CF0 /* AppDelegate.m in Sources */,
 				AD2297BB1ECA2A8200467CF0 /* main.m in Sources */,
+				72DDB8051F2BA25E0092024C /* SmartDeviceTableViewCell.m in Sources */,
 				72C281861EFC393C00127D9A /* HomeViewController.m in Sources */,
 				ADE3DE0F1ECBA7360084364C /* Peripheral.m in Sources */,
 				7226082D1EFC33E800C057B4 /* ResourceCell.m in Sources */,
+				72DDB7FE1F2BA2410092024C /* CompassTableViewCell.m in Sources */,
 				727105041F1D71E000A43DBF /* SensorTableViewCell.m in Sources */,
 				AD2298111ECA50B500467CF0 /* iotivity_itf.m in Sources */,
 				AD22980D1ECA4CA600467CF0 /* DeviceCell.m in Sources */,
 				7250ED951F26C18F00DB9294 /* LightViewController.m in Sources */,
 				72CE411B1EFB277F00640431 /* DeviceViewController.m in Sources */,
-				7208CA831F01E05E00226321 /* CompassTableViewCell.m in Sources */,
+				72DDB8001F2BA2410092024C /* CompassViewController.m in Sources */,
 				72C2817D1EFC37A400127D9A /* PeripheralResource.m in Sources */,
 				727104FF1F1D69AE00A43DBF /* SensorViewController.m in Sources */,
-				7208CA681F0180CD00226321 /* SmartDeviceTableViewCell.m in Sources */,
-				7208CA7E1F01D07300226321 /* CompassViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,10 +610,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		723E92F11F101B7800C5C1DB /* PBXTargetDependency */ = {
+		72DDB8141F2BA2C90092024C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Charts;
-			targetProxy = 723E92F01F101B7800C5C1DB /* PBXContainerItemProxy */;
+			targetProxy = 72DDB8131F2BA2C90092024C /* PBXContainerItemProxy */;
 		};
 		AD2297D11ECA2A8200467CF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
