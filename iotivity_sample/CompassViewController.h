@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Peripheral.h"
-#import <Charts/Charts.h>
-
+#import <Charts/Charts-Swift.h>
 @interface CompassViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *mTableView;
 @property (weak, nonatomic) IBOutlet UISwitch *mSwitch;

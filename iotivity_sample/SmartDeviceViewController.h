@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Charts/Charts.h>
+#import <Charts/Charts-Swift.h>
 #import "Peripheral.h"
 
 @interface SmartDeviceViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>

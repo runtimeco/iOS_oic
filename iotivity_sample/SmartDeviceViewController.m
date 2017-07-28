@@ -9,6 +9,7 @@
 #import "SmartDeviceViewController.h"
 #import "SmartDeviceTableViewCell.h"
 #import "iotivity_itf.h"
+#import <Charts/Charts-Swift.h>
 
 @interface SmartDeviceViewController () <ChartViewDelegate>
 @property (strong, nonatomic) NSMutableArray *chartValues;
@@ -147,8 +148,8 @@ float x = 0.0;
     LineChartDataSet *set1 = nil;
     if (_chartView.data.dataSetCount > 0)
     {
-        [_chartView autoScale];
 
+        [_chartView autoScaleMinMaxEnabled];
         set1 = (LineChartDataSet *)_chartView.data.dataSets[0];
         set1.values = chartValues;
         [_chartView.data notifyDataChanged];
@@ -156,8 +157,7 @@ float x = 0.0;
     }
     else
     {
-        [_chartView autoScale];
-
+        [_chartView autoScaleMinMaxEnabled];
         set1 = [[LineChartDataSet alloc] initWithValues:chartValues label:@"DataSet 1"];
         
         set1.drawIconsEnabled = NO;
