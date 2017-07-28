@@ -14,6 +14,8 @@
 		72366EDF1ED79E7E00BD1D28 /* DeviceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72366EDE1ED79E7E00BD1D28 /* DeviceListViewController.xib */; };
 		723CB0DF1F1562F300585A70 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 723CB0DE1F1562F300585A70 /* ios */; };
 		723CB0E01F15630200585A70 /* iotivity-csdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9E38FB1ED0BFDD00EFA8A4 /* iotivity-csdk.framework */; };
+		72500FD41F2BAD7600053468 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72500FD11F2BAD6400053468 /* Charts.framework */; };
+		72500FD51F2BAD7600053468 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72500FD11F2BAD6400053468 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7250ED951F26C18F00DB9294 /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7250ED931F26C18F00DB9294 /* LightViewController.m */; };
 		7250ED961F26C18F00DB9294 /* LightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7250ED941F26C18F00DB9294 /* LightViewController.xib */; };
 		727104F91F1D466600A43DBF /* lightimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 727104F71F1D466600A43DBF /* lightimg.png */; };
@@ -37,8 +39,6 @@
 		72DDB8011F2BA2410092024C /* CompassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DDB7FD1F2BA2410092024C /* CompassViewController.xib */; };
 		72DDB8051F2BA25E0092024C /* SmartDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DDB8031F2BA25E0092024C /* SmartDeviceTableViewCell.m */; };
 		72DDB8061F2BA25E0092024C /* SmartDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DDB8041F2BA25E0092024C /* SmartDeviceTableViewCell.xib */; };
-		72DDB8111F2BA2C90092024C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DDB80E1F2BA28E0092024C /* Charts.framework */; };
-		72DDB8121F2BA2C90092024C /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72DDB80E1F2BA28E0092024C /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AD2297BB1ECA2A8200467CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2297BA1ECA2A8200467CF0 /* main.m */; };
 		AD2297BE1ECA2A8200467CF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2297BD1ECA2A8200467CF0 /* AppDelegate.m */; };
 		AD2297C61ECA2A8200467CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2297C51ECA2A8200467CF0 /* Assets.xcassets */; };
@@ -54,23 +54,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		72DDB80D1F2BA28E0092024C /* PBXContainerItemProxy */ = {
+		72500FD01F2BAD6400053468 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
+			containerPortal = 72500FCB1F2BAD6300053468 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F241D8110E600722320;
 			remoteInfo = Charts;
 		};
-		72DDB80F1F2BA28E0092024C /* PBXContainerItemProxy */ = {
+		72500FD21F2BAD6400053468 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
+			containerPortal = 72500FCB1F2BAD6300053468 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F2E1D8110E600722320;
 			remoteInfo = ChartsTests;
 		};
-		72DDB8131F2BA2C90092024C /* PBXContainerItemProxy */ = {
+		72500FD61F2BAD7600053468 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
+			containerPortal = 72500FCB1F2BAD6300053468 /* Charts.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 06165F231D8110E600722320;
 			remoteInfo = Charts;
@@ -98,7 +98,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				72DDB8121F2BA2C90092024C /* Charts.framework in Embed Frameworks */,
+				72500FD51F2BAD7600053468 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +114,7 @@
 		7226082C1EFC33E800C057B4 /* ResourceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceCell.xib; sourceTree = "<group>"; };
 		72366EDE1ED79E7E00BD1D28 /* DeviceListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceListViewController.xib; sourceTree = "<group>"; };
 		723CB0DE1F1562F300585A70 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; path = iotivity_sample/iotivity/out/ios; sourceTree = "<group>"; };
+		72500FCB1F2BAD6300053468 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		7250ED921F26C18F00DB9294 /* LightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
 		7250ED931F26C18F00DB9294 /* LightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
 		7250ED941F26C18F00DB9294 /* LightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LightViewController.xib; sourceTree = "<group>"; };
@@ -150,7 +151,6 @@
 		72DDB8031F2BA25E0092024C /* SmartDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmartDeviceTableViewCell.m; path = iotivity_sample/SmartDeviceTableViewCell.m; sourceTree = "<group>"; };
 		72DDB8041F2BA25E0092024C /* SmartDeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmartDeviceTableViewCell.xib; path = iotivity_sample/SmartDeviceTableViewCell.xib; sourceTree = "<group>"; };
 		72DDB8071F2BA2710092024C /* iotivity_sample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "iotivity_sample-Bridging-Header.h"; path = "iotivity_sample/iotivity_sample-Bridging-Header.h"; sourceTree = "<group>"; };
-		72DDB8081F2BA28D0092024C /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
 		AD2297B61ECA2A8200467CF0 /* iotivity_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iotivity_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2297BA1ECA2A8200467CF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD2297BC1ECA2A8200467CF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72DDB8111F2BA2C90092024C /* Charts.framework in Frameworks */,
+				72500FD41F2BAD7600053468 /* Charts.framework in Frameworks */,
 				723CB0E01F15630200585A70 /* iotivity-csdk.framework in Frameworks */,
 				AD2298131ECA554F00467CF0 /* CoreBluetooth.framework in Frameworks */,
 			);
@@ -234,6 +234,15 @@
 				7250ED941F26C18F00DB9294 /* LightViewController.xib */,
 			);
 			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		72500FCC1F2BAD6300053468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72500FD11F2BAD6400053468 /* Charts.framework */,
+				72500FD31F2BAD6400053468 /* ChartsTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		72C2817E1EFC37AF00127D9A /* Peripheral classes */ = {
@@ -298,19 +307,10 @@
 			path = iotivity_sample;
 			sourceTree = "<group>";
 		};
-		72DDB8091F2BA28D0092024C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				72DDB80E1F2BA28E0092024C /* Charts.framework */,
-				72DDB8101F2BA28E0092024C /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		AD2297AD1ECA2A8200467CF0 = {
 			isa = PBXGroup;
 			children = (
-				72DDB8081F2BA28D0092024C /* Charts.xcodeproj */,
+				72500FCB1F2BAD6300053468 /* Charts.xcodeproj */,
 				72DDB8071F2BA2710092024C /* iotivity_sample-Bridging-Header.h */,
 				72DDB8021F2BA25E0092024C /* SmartDeviceTableViewCell.h */,
 				72DDB8031F2BA25E0092024C /* SmartDeviceTableViewCell.m */,
@@ -409,7 +409,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				72DDB8141F2BA2C90092024C /* PBXTargetDependency */,
+				72500FD71F2BAD7600053468 /* PBXTargetDependency */,
 			);
 			name = iotivity_sample;
 			productName = iotivity_sample;
@@ -491,8 +491,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 72DDB8091F2BA28D0092024C /* Products */;
-					ProjectRef = 72DDB8081F2BA28D0092024C /* Charts.xcodeproj */;
+					ProductGroup = 72500FCC1F2BAD6300053468 /* Products */;
+					ProjectRef = 72500FCB1F2BAD6300053468 /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -505,18 +505,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		72DDB80E1F2BA28E0092024C /* Charts.framework */ = {
+		72500FD11F2BAD6400053468 /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = 72DDB80D1F2BA28E0092024C /* PBXContainerItemProxy */;
+			remoteRef = 72500FD01F2BAD6400053468 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		72DDB8101F2BA28E0092024C /* ChartsTests.xctest */ = {
+		72500FD31F2BAD6400053468 /* ChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChartsTests.xctest;
-			remoteRef = 72DDB80F1F2BA28E0092024C /* PBXContainerItemProxy */;
+			remoteRef = 72500FD21F2BAD6400053468 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -610,10 +610,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		72DDB8141F2BA2C90092024C /* PBXTargetDependency */ = {
+		72500FD71F2BAD7600053468 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Charts;
-			targetProxy = 72DDB8131F2BA2C90092024C /* PBXContainerItemProxy */;
+			targetProxy = 72500FD61F2BAD7600053468 /* PBXContainerItemProxy */;
 		};
 		AD2297D11ECA2A8200467CF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
