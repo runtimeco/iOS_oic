@@ -2,9 +2,10 @@
 IOS app with OIC
 
 1. To set up build environment, first run ./setup.sh
-2. Open your project in Xcode
-3. Clone the iOS charts using https://github.com/danielgindi/Charts.git
-4. Drag and Drop the Charts.xcodeproj in your project folder open in Xcode
-5. Click on the project file. Choose your target. In the General tab, go to Embedded Binaries section, click on “+” and add charts.framework from Charts.xcodeproj
+2. Ensure you have Cocoapods installed. If you need to install cocoapods execute : $ sudo gem install cocoapods
+3. To check if you have cocoapods, execute : $ pod --version
+4. Once you have cocoapods, execute : $ pod install in your project directory.
+5. Open your project in Xcode
+6. Click on the project file. Choose your target. In the General tab, go to Linked Frameworks and Libraries section, click on “+” and add Charts.framework if not already added.
 
 Clean the project, build and run.
