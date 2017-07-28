@@ -109,6 +109,7 @@ int peripheralCount = 0;
 
 - (void) stopTimer {
     [_centralManager stopScan];
+     _timer = [NSTimer scheduledTimerWithTimeInterval:20 target:self selector:@selector(timeout) userInfo:nil repeats:nil];
     peripheralCount = (int)[_peripheralList count];
     if (peripheralCount < 1) {
         discoverIP = false;
@@ -124,6 +125,13 @@ int peripheralCount = 0;
     
 }
 
+- (void) timeout {
+    if ([self.activityView isAnimating]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.activityView stopAnimating];
+        });
+    }
+}
 
 - (void) apicall : (NSString *) uuid {
     [[iotivity_itf shared] discover_allDevices:self andBLEAddress:uuid];
