@@ -18,10 +18,13 @@ The Mynewt Sensor application is a sample for developers looking to use OIC to c
 ### Understanding the MyNewt Sensor App in iOS
 
 #### Discovery
-
 To discover OIC enabled devices, hit the discovery button in the top right corner of the Main screen. This will discover devices using the options given to the OCDoResource. By default, we will do a general discovery of all OIC enabled devices over BLE and IP transport. Any resource containing a valid Mynewt sensor framework resource type will be added to the Sensors list while any other device will be added to the Smart Devices list
 
 #### Observing a Sensor 
-
 To Observe a sensor, click the sensor in the list. This will bring up the sensor screen which will immediately start observing the sensor. You can stop/start observing the sensor by hitting the start/stop observe button in the top right of the navigation bar. 
 ![alt text](https://github.com/runtimeco/iOS_oic/blob/master/photos/sensor_img.jpg)
+
+### Useful Files
+#### iotivity_itf.h and iotivity_itf.m
+
+
