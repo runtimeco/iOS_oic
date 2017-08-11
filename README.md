@@ -8,3 +8,6 @@
 6. Click on the project file. Choose your **target**. In the General tab, go to **Linked Frameworks and Libraries section**, click on **+** and add Charts.framework if not already added.
 
 Clean the project, build and run. (The option to clean, build and run the project will be seen in the Menu Bar -> Product)
+
+# OIC and Iotivity Overview
+For more information on OIC and Iotivity for iOS, refer to ```https://github.com/runtimeco/ios_oic_developer/blob/master/README.md```
