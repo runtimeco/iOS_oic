@@ -9,5 +9,5 @@
 
 Clean the project, build and run. (The option to clean, build and run the project will be seen in the Menu Bar -> Product)
 
-# OIC and Iotivity Overview
+## OIC and Iotivity Overview
 For more information on OIC and Iotivity for iOS, refer to ```https://github.com/runtimeco/ios_oic_developer/blob/master/README.md```
