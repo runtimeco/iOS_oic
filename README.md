@@ -30,3 +30,62 @@ The `iotivity_itf.h` is the header file for the functions used for the communica
 
 #### Peripheral.h and Peripheral.m
 The `Peripheral.h` is the header file which declares the properties a discovered Peripheral can contain. `Peripheral.m` has the function to add the resources in the Peripheral Resource array.
+
+#### A few functions involved
+##### Discovery of IP and BLE resources
+```
+// BLE discover resources
+/*
+* @param delegate : reference to the class that called the function
+* @param address  : uuid of the device 
+*/
+- (int) discover_allDevices: (id) delegate andAddress : (NSString *)address
+
+// IP discover resources
+/*
+* @param delegate : reference to the class that called the function
+*/
+- (int) discovery_start:(id)delegate
+```
+##### Get resource values
+```
+// Get resource values
+/*
+* @param delegate : reference to the class that called the function
+* @param uri : resource uri
+* @param devAddr : device address and related details
+*/
+- (int) get_generic:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr) devAddr
+```
+##### Set resource values
+```
+// Set resource values
+/*
+* @param delegate : reference to the class that called the function
+* @param uri : resource uri
+* @param devAddr : device address and related details
+* @param payload : set resource values packaged in OCRepPayload
+*/
+- (int) set_generic:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr)devAddr andPayLoad:(OCRepPayload *) payload{
+```
+##### Observe resource values
+```
+// Set resource values
+/*
+* @param delegate : reference to the class that called the function
+* @param uri : resource uri
+* @param devAddr : device address and related details
+*/
+- (int) observe_light:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr)devAddr
+```
+##### Cancel Observe
+```
+// Set resource values
+/*
+* @param delegate : reference to the class that called the function
+* @param uri : resource uri
+* @param devAddr : device address and related details
+* @param handle : OCDoHandle returned from the observe API call
+*/
+- (int) cancel_observer:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr)devAddr andHandle:(OCDoHandle)handle
+```
