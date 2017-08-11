@@ -39,13 +39,13 @@ The `Peripheral.h` is the header file which declares the properties a discovered
 * @param delegate : reference to the class that called the function
 * @param address  : uuid of the device 
 */
-- (int) discover_allDevices: (id) delegate andAddress : (NSString *)address
+- (int) discover_BLE: (id) delegate andAddress : (NSString *)address
 
 // IP discover resources
 /*
 * @param delegate : reference to the class that called the function
 */
-- (int) discovery_start:(id)delegate
+- (int) discovery_IP:(id)delegate
 ```
 ##### Get resource values
 ```
