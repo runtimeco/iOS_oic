@@ -10,7 +10,7 @@
 Clean the project, build and run. (The option to clean, build and run the project will be seen in the Menu Bar -> Product)
 
 ## OIC and Iotivity Overview
-For more information on OIC and Iotivity for iOS, refer to ```https://github.com/runtimeco/ios_oic_developer/blob/master/README.md```
+For more information on OIC and Iotivity for iOS, refer to [https://github.com/runtimeco/ios_oic_developer/blob/master/README.md] here
 
 ## MyNewt Sensor Application Overview
 The Mynewt Sensor application is a sample for developers looking to use OIC to communicate with Mynewt devices which use the sensor framework to expose sensor data. The source code is available on [github](https://github.com/runtimeco/ios_oic) as a part of runtimeco.
@@ -55,7 +55,7 @@ The `Peripheral.h` is the header file which declares the properties a discovered
 * @param uri : resource uri
 * @param devAddr : device address and related details
 */
-- (int) get_generic:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr) devAddr
+- (int) get_resources:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr) devAddr
 ```
 ##### Set resource values
 ```
@@ -66,7 +66,7 @@ The `Peripheral.h` is the header file which declares the properties a discovered
 * @param devAddr : device address and related details
 * @param payload : set resource values packaged in OCRepPayload
 */
-- (int) set_generic:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr)devAddr andPayLoad:(OCRepPayload *) payload{
+- (int) set_resource_value:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr)devAddr andPayLoad:(OCRepPayload *) payload
 ```
 ##### Observe resource values
 ```
@@ -76,7 +76,7 @@ The `Peripheral.h` is the header file which declares the properties a discovered
 * @param uri : resource uri
 * @param devAddr : device address and related details
 */
-- (int) observe_light:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr)devAddr
+- (int) observe:(id)delegate andURI:(NSString *)uri andDevAddr:(OCDevAddr)devAddr
 ```
 ##### Cancel Observe
 ```
