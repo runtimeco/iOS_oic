@@ -1,6 +1,5 @@
 # IOS OIC
-IOS app with OIC
-
+## Setting up the iOS sensors app with OIC
 1. To set up build environment, first run ./setup.sh
 2. Ensure you have Cocoapods installed. If you need to install cocoapods execute : *$ sudo gem install cocoapods*
 3. To check if you have cocoapods, execute : *$ pod --version*
