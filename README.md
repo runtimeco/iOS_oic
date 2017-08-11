@@ -70,7 +70,7 @@ The `Peripheral.h` is the header file which declares the properties a discovered
 ```
 ##### Observe resource values
 ```
-// Set resource values
+// Observe resource values
 /*
 * @param delegate : reference to the class that called the function
 * @param uri : resource uri
@@ -80,7 +80,7 @@ The `Peripheral.h` is the header file which declares the properties a discovered
 ```
 ##### Cancel Observe
 ```
-// Set resource values
+// Cancel the resource value observation
 /*
 * @param delegate : reference to the class that called the function
 * @param uri : resource uri
