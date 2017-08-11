@@ -26,5 +26,7 @@ To Observe a sensor, click the sensor in the list. This will bring up the sensor
 
 ### Useful Files
 #### iotivity_itf.h and iotivity_itf.m
+The `iotivity_itf.h` is the header file for the functions used for the communication between the iOS device and the sensors. The `iotivity_itf.m` contains the functions used for discovering resources, getting values from resources, observing resource values and setting resource values.
 
-
+#### Peripheral.h and Peripheral.m
+The `Peripheral.h` is the header file which declares the properties a discovered Peripheral can contain. `Peripheral.m` has the function to add the resources in the Peripheral Resource array.
