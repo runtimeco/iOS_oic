@@ -13,6 +13,6 @@ Clean the project, build and run. (The option to clean, build and run the projec
 For more information on OIC and Iotivity for iOS, refer to ```https://github.com/runtimeco/ios_oic_developer/blob/master/README.md```
 
 ## MyNewt Sensor Application Overview
-The Mynewt Sensor application is a sample for developers looking to use OIC to communicate with Mynewt devices which use the sensor framework to expose sensor data. The source code is available on [github] (https://github.com/runtimeco/ios_oic) as a part of runtimeco.
+The Mynewt Sensor application is a sample for developers looking to use OIC to communicate with Mynewt devices which use the sensor framework to expose sensor data. The source code is available on [github](https://github.com/runtimeco/ios_oic) as a part of runtimeco.
 
 ### Understanding the MyNewt Sensor App in iOS
