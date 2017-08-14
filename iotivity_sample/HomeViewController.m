@@ -166,16 +166,18 @@ int peripheralCount = 0;
 }
 
 - (IBAction)iScanAction:(id)sender {
-
     _centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil];
-//    peripheralCount = (int)[_peripheralList count];
-//    for (CBPeripheral *per in _peripheralList) {
-//        NSLog(@"%@",[per.identifier UUIDString]);
-//        dispatch_queue_t myQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-//        dispatch_async(myQueue , ^{
-//            [[iotivity_itf shared] discover_BLE:self andBLEAddress:[per.identifier UUIDString]];
-//        });
-//    }
+    _peripheralList = [[NSMutableArray alloc] init];
+    
+    
+    peripheralCount = (int)[_peripheralList count];
+    for (CBPeripheral *per in _peripheralList) {
+        NSLog(@"%@",[per.identifier UUIDString]);
+        dispatch_queue_t myQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        dispatch_async(myQueue , ^{
+            [[iotivity_itf shared] discover_allDevices:self andBLEAddress:[per.identifier UUIDString]];
+        });
+    }
 }
 
 - (void)listUpdated {
